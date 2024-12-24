@@ -2,8 +2,8 @@ import os
 
 # Define the file name and the maximum size to test (in bytes)
 # Here we will create a file of 100 MB to test the limit
-file_name = "test_large_file.txt"
-max_size = 100 * 1024 * 1024  # 100 MB (adjust to test smaller or larger sizes)
+file_name = "bigfile"
+max_size = 100 * 1024 * 1024  # 100 MB
 
 # Create the large file
 with open(file_name, 'wb') as f:
